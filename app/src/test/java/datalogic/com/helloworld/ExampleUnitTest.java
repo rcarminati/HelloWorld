@@ -18,7 +18,7 @@ public class ExampleUnitTest {
 
     @Test
     public void multiply_isCorrect() {
-        assertEquals(16, CreateUserActivity.somma(4,4));
+        assertEquals(16, CreateUserActivity.moltiplica(4,4));
 
     }
 }
