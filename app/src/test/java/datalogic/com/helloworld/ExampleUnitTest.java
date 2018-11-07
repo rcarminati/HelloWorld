@@ -30,4 +30,9 @@ public class ExampleUnitTest {
     public void ya_failing_dummy_test() {
         assertEquals("123", "12345");
     }
+
+    @Test
+    public void ok_dummy_test() {
+        assertEquals("123", "123");
+    }
 }
