@@ -19,6 +19,10 @@ public class ExampleUnitTest {
     @Test
     public void multiply_isCorrect() {
         assertEquals(16, CreateUserActivity.moltiplica(4,4));
+    }
 
+    @Test
+    public void failed_dummy_test() {
+        assertEquals("123", "1234");
     }
 }
