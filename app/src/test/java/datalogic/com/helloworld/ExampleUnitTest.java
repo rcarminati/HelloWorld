@@ -22,7 +22,12 @@ public class ExampleUnitTest {
     }
 
     @Test
-    public void failed_dummy_test() {
+    public void failing_dummy_test() {
         assertEquals("123", "1234");
+    }
+
+    @Test
+    public void ya_failing_dummy_test() {
+        assertEquals("123", "12345");
     }
 }
